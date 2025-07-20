@@ -1,0 +1,25 @@
+Major overhaul of StayAwake Pro with smarter logging, tray fixes, and tighter settings persistence.
+
+###  Highlights
+- Refactored codebase for maintainability and modularity
+- New `SafeLogger` system (only logs when Debug is enabled)
+- Prevents accidental log creation in production
+- Improved minimize-to-tray behavior and stability
+- Startup/Registry manager cleaned up and reliable
+- Config now uses proper AppData persistence
+- Settings window shows live values and saves consistently
+- Logging now supports VM/sandbox detection
+
+###  Fixes
+- Multiple tray icon issue resolved
+- Logger now fails gracefully without crashing
+- All setting toggles behave as expected
+
+### File Info
+-  Built on .NET Framework 4.6
+-  Version: `v1.15.0.0`
+-  License: MIT
+
+---
+
+Feedback, issues, or suggestions? Drop them in the [Issues tab](https://github.com/genesis95/StayAwakePro/issues).
